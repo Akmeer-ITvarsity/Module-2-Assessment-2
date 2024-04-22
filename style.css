@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/backg3.webp);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+   list-style: none;
+   display: inline-block;
+   margin-left: 60px;
+  
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: firebrick;
+    font-size: 20px;
+     background-color: beige;
+}
+
+
+.row{
+    align-items: center;
+}
+
+h1{
+    color: firebrick;
+    text-align: center;
+}
+
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+}
+
+.card1{
+    background-image: url(img/sp1.jpg);
+}
+
+.card2{
+    background-image: url(img/sp3.jpg)
+}
+
+
+
+
+h2{
+    color: firebrick;
+    text-align: center;
+}
+
+.gallery{
+    margin: auto;
+    display: block;
+}
+
+.input-row{
+       margin-bottom: 20px;
+       background-color:beige;
+}
+
+.input-row .input-group{
+    flex-basis: 45%;
+    
+}
+
+input{
+    width: 50%;
+}
+
+textarea{
+    width: 50px;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+button{
+    background: #1c00b5;
+    width: 50%;
+    border: none;
+    outline: none;
+    color: beige;
+    height: 35px;
+    border-radius: 30px;
+}
+
+.clothing store{
+    border-style: double firebrick;
+}
